@@ -1,9 +1,6 @@
 name: Build
 
 on:
-  schedule:
-    - cron: "30 6 * * 4"
-    - cron: "30 6 * * 1"
   workflow_dispatch:
 
 jobs:
